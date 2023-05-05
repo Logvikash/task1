@@ -6,6 +6,8 @@ import { RiQuestionnaireFill } from 'react-icons/ri';
 import { MdOutlineSubject } from 'react-icons/md';
 import { ImUserTie } from 'react-icons/im';
 import { AiOutlineSetting } from 'react-icons/ai';
+import { MdOutlineLaptopChromebook } from 'react-icons/md';
+import { AiOutlineFileText } from 'react-icons/ai';
 import './sidebar.css';
 
 const Sidebar = () => {
@@ -31,12 +33,22 @@ const Sidebar = () => {
                         <li className="my-px flex items-center py-2 px-5  hover:bg-gray-100">
                             <HiOutlineUserGroup className="w-5 h-5 mr-3" />
                             <span>Group</span>
-                        </li> <li className="my-px flex items-center py-2 px-5  hover:bg-gray-100">
+                        </li> 
+                        <li className="my-px flex items-center py-2 px-5  hover:bg-gray-100">
+                            <MdOutlineLaptopChromebook className="w-5 h-5 mr-3" />
+                            <span>Exam</span>
+                        </li> 
+                       
+                        <li className="my-px flex items-center py-2 px-5  hover:bg-gray-100">
                             <RiQuestionnaireFill className="w-5 h-5 mr-3" />
                             <span>Question</span>
                         </li> <li className="my-px flex items-center py-2 px-5  hover:bg-gray-100">
                             <MdOutlineSubject className="w-5 h-5 mr-3" />
                             <span>Subject</span>
+                        </li>
+                         <li className="my-px flex items-center py-2 px-5  hover:bg-gray-100">
+                            <AiOutlineFileText className="w-5 h-5 mr-3" />
+                            <span>Results</span>
                         </li>
                         <li className="my-px flex items-center py-2 px-5  hover:bg-gray-100">
                             <ImUserTie className="w-5 h-5 mr-3" />
