@@ -1,5 +1,6 @@
-.sidebar{
-   background-color:  #d3e6f4;
-    color: #322e2e;
-  }
+.sidebar {
+  background-color: #ffffff;
+  color: #322e2e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
   
